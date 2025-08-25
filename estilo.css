@@ -1,3 +1,66 @@
-p{
-    color: red;
+* {
+   font-size: 16;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0rem;
+    padding: 0rem;
 }
+
+html{
+    /* border: .1rem solid red; */
+}
+
+body{
+    /* border: .1rem solid blue; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    /* border: .1rem solid green; */
+    height: 4rem;
+    background-color:  rgb(41, 40, 40);
+    color: #eee;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.logo{
+    border: .1rem solid blue;
+    padding: .7rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: blue;
+    border-radius: 100%;
+    font-weight: bold;
+    margin-right: .7rem;
+    align-items: center;
+    align-content: center;
+}
+
+section{
+    /* border: .1rem solid yellow; */
+    display: flex;
+    flex: 1;
+}
+
+nav{
+    /* border: .1rem solid rgb(252, 143, 0); */
+    width: 12rem;
+    background-color: #eee;
+}
+
+main{
+    /* border: .1rem solid pink; */
+    flex: 1;
+}
+
+footer{
+    /* border: .1rem solid black; */
+    height: 4rem;
+    background-color:  rgb(41, 40, 40);
+    color:#eee;
+    padding: .5rem
+}       
