@@ -18,7 +18,7 @@ const dados = [
         "autor": "João Silva",
         "data": "2023-09-22",
         "imagem": "asset/imagem/onibus.png"
-        },
+    },
     {
         "id": 2,
         "titulo": "Tecnologia e Inovação nas Cidades do Futuro",
@@ -43,4 +43,4 @@ const dados = [
         "data": "2023-07-30",
         "imagem": "asset/imagem/alimentacao.png"
     }
-]
+];
